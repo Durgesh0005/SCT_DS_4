@@ -1,4 +1,12 @@
-# 🚧 Road Accident Data Analysis – EDA & Visualization
+# 🚧 Road Accident Data Analysis – EDA & Visualization+
+
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("sobhanmoosavi/us-accidents")
+
+print("Path to dataset files:", path)
+
 
 ## 🧠 Data Science Task 4 – SkillCraft Technology
 
